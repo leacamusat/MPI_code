@@ -2,7 +2,7 @@
 # ALGORITHMS
 ---
 
-# tri fusion
+## tri fusion
 cd codes_parallel_tris/tri_fusion
 
 # compile
@@ -16,7 +16,7 @@ make clean
 
 ---
 
-# pair impair
+## pair impair
 cd codes_parallel_tris/pair_impair
 
 # compile
@@ -30,12 +30,12 @@ make clean
 
 ---
 
-#automates parallel 
+## automates parallel 
 cd fractales_automate
 make fractal_mpi
 ./fractal_mpi
 
-#fractales parallel
+## fractales parallel
 cd fractales_automate
 make GOL_mpi
 ./GOL_mpi
