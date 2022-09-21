@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "plot-result"
+version = "0.1.0"
+description = ""
+authors = ["Adriano Perlini <aperlini@protonmail.ch>"]
+readme = "README.md"
+packages = [{include = "plot_result"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.23.3"
+seaborn = "^0.12.0"
+pandas = "^1.4.4"
+matplotlib = "^3.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
