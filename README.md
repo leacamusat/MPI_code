@@ -5,27 +5,27 @@
 ## tri fusion
 cd codes_parallel_tris/tri_fusion
 
-# compile
+#compile
 make
 
-# run
+#run
 make run N_PROC=<nbr_processus>
 
-# clean repo (.o and executable repo deletion)
+#clean repo (.o and executable repo deletion)
 make clean
 
 ---
 
-## pair impair
+#pair impair
 cd codes_parallel_tris/pair_impair
 
-# compile
+#compile
 make
 
-# run
+#run
 make run N_PROC=<nbr_processus>
 
-# clean repo (.o and executable repo deletion)
+#clean repo (.o and executable repo deletion)
 make clean
 
 ---
